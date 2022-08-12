@@ -1,0 +1,45 @@
+.container {
+    width: 100%;
+    min-height: 75vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.body_container {
+    width: 90%;
+    background-color: var(--secondary-color);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.div_grid_cards {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 95%;
+    justify-content: center;
+    padding-top: 1rem;
+    gap: 30px;
+}
+
+@media only screen and (min-width: 670px) {
+    .div_grid_cards {
+        grid-template-columns: 46% 46%;
+        gap: 20px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .div_grid_cards {
+        grid-template-columns: 30.5% 30.5% 30.5%;
+    }
+}
+
+@media only screen and (min-width: 1770px) {
+    .body_container {
+        width: 95%;
+    }
+}

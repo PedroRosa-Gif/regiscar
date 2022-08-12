@@ -1,0 +1,23 @@
+.div_delete_icon {
+    width: 2.7rem;
+    height: 2.7rem;
+    align-self: center;
+    border-radius: 0.8rem;
+    background-color: var(--third-color);
+    margin-right: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.div_delete_icon:hover {
+    background-color: var(--hover-third-color);
+}
+
+.div_delete_icon img {
+    width: 70%;
+    margin: 0 auto;
+}

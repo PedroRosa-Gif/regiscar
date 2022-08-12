@@ -1,0 +1,27 @@
+.warning_div {
+    width: 70%;
+    height: 4rem;
+    display: flex;
+    padding: 1rem;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 1;
+    background-color: var(--third-color);
+    border-radius: 1rem;
+    box-shadow: -4px 4px 7px rgba(0, 0, 0, 0.2);
+}
+
+.warning_div span {
+    align-self: center;
+    padding-left: 2rem;
+    font-family: var(--font-family-third);
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.warning_div img {
+    width: 2rem;
+    align-self: flex-start;
+    cursor: pointer;
+}

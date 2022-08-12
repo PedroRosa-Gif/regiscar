@@ -1,3 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  --primary-color: #5e35b1;
+  --secondary-color: #ededed;
+  --third-color: #ede7f6;
+  --fourth-color: #09090a;
+
+  --white-color: #FFFFFF;
+  --black-color: #000000;
+  --gray-color: #c0c0c0;
+
+  --hover-third-color: #d7d4db;
+
+  --font-family-primary: 'Montserrat', sans-serif;
+  --font-family-secondary: 'Lato', sans-serif;
+  --font-family-third: 'Figtree', sans-serif;;
+}
+
 .App {
   text-align: center;
 }

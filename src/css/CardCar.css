@@ -1,0 +1,143 @@
+.cardCar {
+    width: 100%;
+    height: 40vh;
+    scale: 1;
+    background-color: var(--white-color);
+    border-radius: 0.8rem;
+    transition: all 300ms ease-in-out;
+    box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.cardCar:hover {
+    scale: 1.05;
+    box-shadow: -5px 5px 4px rgba(0, 0, 0, 0.2);
+}
+
+.div_header_card {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--gray-color);
+}
+
+.div_header_card h1 {
+    align-self: center;
+    padding: 1rem;
+    font-size: 1.1rem;
+    font-family: var(--font-family-primary);
+}
+
+.div_footer_card {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 1rem;
+}
+
+.brand_txt {
+    color: var(--gray-color);
+    font-family: var(--font-family-primary);
+    margin: 0;
+    padding-top: 0.5rem;
+}
+
+.div_footer_card h1 {
+    font-size: 1.5rem;
+    font-family: var(--font-family-primary);
+    margin: 0;
+}
+
+.info_txt {
+    font-size: 1rem;
+    font-family: var(--font-family-secondary);
+}
+
+.div_showmore_card {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: var(--primary-color);
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
+}
+
+.div_showmore_card:hover {
+    opacity: 0.8;
+}
+
+.img_view_more {
+    width: 1.5rem;
+    height: 1.5rem;
+    align-self: center;
+    justify-self: center;
+    padding: 0.2rem;
+}
+
+.div_showmore_card p {
+    align-self: center;
+    font-size: 1rem;
+    font-family: var(--font-family-third);
+    margin: 0;
+    padding: 0.2rem;
+}
+
+@media only screen and (min-width: 670px) {
+    .div_header_card h1 {
+        font-size: 1.2rem;
+    }
+
+    .div_showmore_card p {
+        font-size: 0.8rem;
+    }
+
+    .div_footer_card h1 {
+        font-size: 1.2rem;
+    }
+    
+    .info_txt {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .div_header_card h1 {
+        font-size: 1.5rem;
+    }
+
+    .div_showmore_card p {
+        font-size: 1rem;
+    }
+
+    .div_footer_card h1 {
+        font-size: 1.5rem;
+    }
+    
+    .info_txt {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 1770px) {
+    .div_header_card h1 {
+        font-size: 1.8rem;
+    }
+
+    .div_showmore_card p {
+        font-size: 1.3rem;
+    }
+
+    .div_footer_card h1 {
+        font-size: 1.8rem;
+    }
+    
+    .info_txt {
+        font-size: 1.3rem;
+    }
+}
