@@ -13,7 +13,6 @@ export default function CreateCar() {
   const navigator = useNavigate();
   const { car } = location.state;
   const [item, setItem] = useState(car || {
-    _id:	'',
     title: '',
     brand: '',
     price: '',
@@ -29,7 +28,6 @@ export default function CreateCar() {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          _id:	item._id,
           title: item.title,
           brand: item.brand,
           price: item.price,
@@ -56,7 +54,6 @@ export default function CreateCar() {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          _id:	item._id,
           title: item.title,
           brand: item.brand,
           price: item.price,
@@ -103,10 +100,6 @@ export default function CreateCar() {
         <div className='body_container'>
           <form className='form_car'>
             <span>{car ? 'Editar' : 'Cadastrar'} Carro</span>
-            <div className='div_field_form'>
-              <label htmlFor='_id'>ID:</label>
-              <input type='text' id='_id' value={item._id} onChange={(e) => setItem({ ...item, _id: e.target.value})} />
-            </div>
             <div className='div_field_form'>
               <label htmlFor='title'>Título:</label> 
               <input type='text' id='title' value={item.title} onChange={(e) => setItem({ ...item, title: e.target.value})} />
