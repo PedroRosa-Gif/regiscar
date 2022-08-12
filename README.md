@@ -1,7 +1,7 @@
 
 # RegisCar
 
-Um projeto simples de cadastro de carros, onde o usuário pode inserir um novo carro, editar um carro, listar carros e excluir.
+Um projeto simples de cadastro de carros, onde o usuário pode inserir um novo carro, editar um carro, listar carros e excluir. Consumindo esses dados de um API.
 
 
 
